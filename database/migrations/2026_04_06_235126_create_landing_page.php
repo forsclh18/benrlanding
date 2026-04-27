@@ -51,7 +51,7 @@ return new class extends Migration {
             $table->timestamps();
         });
 
-        // 4. Tabel teams (TIM yang ada di web RZF Software)
+        // 4. Tabel teams (TIM yang ada di web)
         Schema::create('teams', function (Blueprint $table) {
             $table->id();
             $table->string('name', 100);
